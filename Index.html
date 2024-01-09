@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <input type="checkbox" id="check" aria-hidden="true">
+            <div class="login">
+                <form class="form">
+                    <label for="check" aria-hidden="true">Log in</label>
+                    <input type="email" name="input" class="input" placeholder="email" required>
+                    <input type="password" class="input" name="pass" placeholder="password" required>
+                    <label id="forgot" for="">Forgot Password ?<span><a href="">Click Here</a></span></label>
+                    <button>Log in</button>
+                </form>
+            </div>
+
+            <div class="register">
+                <form class="form">
+                    <label for="check" aria-hidden="true">Register</label>
+                    <input type="text" class="input" name="txt" placeholder="Username">
+                    <input type="email" class="input" name="email" placeholder="Email">
+                    <input type="password" class="input" name="pass" placeholder="Password">
+                    <button>Sign Up</button>
+                </form>
+            </div>
+                
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
